@@ -43,7 +43,7 @@ Check out the YouTube Video NewGenAI:
    ```
 -->
 
-## Usage
+## Gradio Usage
 
 1. **Start the Application:**
    ```bash
@@ -53,6 +53,13 @@ Check out the YouTube Video NewGenAI:
 2. **Open Your Web Browser:**
    Navigate to the provided Gradio link to interact with the application.<br/>
    Use files in input dir
+
+## Cli Usage
+
+1. **Run in Cmd:**
+   ```bash
+   python3 v_express_cli.py --reference_image input/ref.jpg --audio input/audi.wav --kps_path input/kps.pth --output_path output_video.mp4
+   ```
 
 ## License
 
