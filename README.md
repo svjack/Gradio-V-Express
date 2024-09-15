@@ -47,7 +47,7 @@ Check out the YouTube Video NewGenAI:
 
 1. **Start the Application:**
    ```bash
-   python3 app.py
+   python app.py
    ```
 
 2. **Open Your Web Browser:**
@@ -58,7 +58,7 @@ Check out the YouTube Video NewGenAI:
 
 1. **Run in Cmd:**
    ```bash
-   python3 v_express_cli.py --reference_image input/ref.jpg --audio input/audi.wav --kps_path input/kps.pth --output_path output_video.mp4
+   python v_express_cli.py --reference_image input/ref.jpg --audio input/audi.wav --kps_path input/kps.pth --output_path output_video.mp4
    ```
 
 ## License
