@@ -31,7 +31,6 @@ Check out the YouTube Video NewGenAI:
 
 4. **Download and Set Up Models:**
    ```bash
-   git lfs install
    git clone https://huggingface.co/tk93/V-Express
    mkdir -p model_ckpts/v-express
    cp -r V-Express/model_ckpts/* model_ckpts/
