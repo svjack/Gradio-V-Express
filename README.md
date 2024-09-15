@@ -26,7 +26,7 @@ Check out the YouTube Video NewGenAI:
 
 3. **Install Required Packages:**
    ```bash
-   pip install xformers==0.0.21 torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu118 diffusers==0.24.0 imageio-ffmpeg==0.4.9 omegaconf==2.2.3 onnxruntime-gpu==1.16.3 safetensors==0.4.2 transformers==4.30.2 einops==0.4.1 tqdm==4.66.1 av==11.0.0 accelerate insightface dlib gradio
+   pip install xformers==0.0.21 torch torchvision torchaudio diffusers==0.24.0 imageio-ffmpeg==0.4.9 omegaconf==2.2.3 onnxruntime-gpu==1.16.3 safetensors==0.4.2 transformers==4.30.2 einops==0.4.1 tqdm==4.66.1 av==11.0.0 accelerate insightface dlib gradio
    ```
 
 4. **Download and Set Up Models:**
