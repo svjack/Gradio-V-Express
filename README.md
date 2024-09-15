@@ -51,7 +51,8 @@ Check out the YouTube Video NewGenAI:
    ```
 
 2. **Open Your Web Browser:**
-   Navigate to the provided Gradio link to interact with the application.
+   Navigate to the provided Gradio link to interact with the application.<br/>
+   Use files in input dir
 
 ## License
 
