@@ -60,6 +60,33 @@ Check out the YouTube Video NewGenAI:
    ```bash
    python v_express_cli.py --reference_image input/ref.jpg --audio input/audi.wav --kps_path input/kps.pth --output_path output_video.mp4
    ```
+## Flask Usage
+
+1. **Start Flask Server:**
+   ```bash
+   python v_express_flask.py
+   ```
+
+2. **Call interface by request**
+   ```python
+   import requests
+   
+   url = "http://127.0.0.1:5000/generate_video"
+   data = {
+       "reference_image": "input/ref.jpg",
+       "audio": "input/audi.wav",
+       "kps_path": "input/kps.pth",
+       "output_path": "output_video.mp4"
+   }
+   
+   response = requests.post(url, json=data)
+   
+   if response.status_code == 200:
+       result = response.json()
+       print(f"Video generated successfully. Saved at: {result['output_path']}")
+   else:
+       print(f"Error: {response.status_code}")
+   ```
 
 ## License
 
