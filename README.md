@@ -19,7 +19,7 @@ Check out the YouTube Video NewGenAI:
 
 2. **Clone the Repository and Set Up Environment:**
    ```bash
-   git clone https://github.com/M4K4R/Gradio-V-Express && cd Gradio-V-Express
+   git clone https://github.com/svjack/Gradio-V-Express && cd Gradio-V-Express
    python3 -m venv venv
    source venv/bin/activate
    ```
