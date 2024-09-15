@@ -130,4 +130,4 @@ description = "An interactive interface for generating talking face videos using
 
 # Launch Gradio app
 demo = gr.Interface(run_demo, inputs, output, title=title, description=description)
-demo.queue().launch()
+demo.queue().launch(share = True)
